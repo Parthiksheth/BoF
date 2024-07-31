@@ -1,0 +1,322 @@
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 25px;
+    margin: 20px 6px;
+}
+
+.home-text p {
+    color: rgb(29 29 27);
+    font-size: 52px;
+    font-family: "Chronicle Display", Times New Roman, Times, Georgia, serif;
+    font-weight: 600;
+    margin-bottom: 28px;
+    cursor: pointer;
+}
+
+
+
+.home-image {
+    margin-bottom: 28px;
+}
+
+.home-image img {
+    height: 544px;
+    object-fit: cover;
+}
+
+
+.home-item-details {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed #8593aa;
+    cursor: pointer;
+}
+
+.home-item-flex {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+}
+
+.home-item-flex span {
+    display: inline;
+    line-height: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.home-item-flex img {
+    height: 17px;
+}
+
+.home-item-text p {
+    display: inline;
+    font-size: 19px;
+    color: rgb(29 29 27);
+    font-family: "Chronicle Display", "Times New Roman", Times, Georgia, serif;
+    line-height: 30px;
+}
+
+.home-card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.home-card img {
+    height: 270px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.home-card h2 {
+    margin: 20px 0;
+    font-family: "Chronicle Display", "Times New Roman", Times, Georgia, serif;
+    color: rgb(29, 29, 27);
+    font-size: 32px;
+    line-height: 34px;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+.home-card p {
+    font-family: "Chronicle Display", "Times New Roman", Times, Georgia, serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(29, 29, 27);
+}
+
+.home-add-1 {
+    margin-top: 30px;
+}
+
+.home-add-1 p {
+    color: #8593aa;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.home-add-2 {
+    margin-top: 30px;
+    display: none;
+}
+
+.home-add-2 p {
+    color: #8593aa;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.home-card-title {
+    border-bottom: 2px solid rgb(29 29 27);
+    margin-bottom: 15px;
+}
+
+.home-card-title span {
+    margin-bottom: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 19px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.home-card-details {
+    border-bottom: 1px dashed #8593aa;
+    margin-bottom: 15px;
+}
+
+.home-card-details span {
+    font-weight: 600;
+    color: rgb(29, 29, 27);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+.home-card-details p {
+    display: inline;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: rgb(29, 29, 27);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.home-card-details h5 {
+    font-size: 12px;
+    line-height: 19px;
+    color: rgb(153, 153, 153);
+    padding: 10px 0;
+}
+
+.home-view {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.home-view span {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.home-view img {
+    height: 18px;
+}
+
+/* ------------   Tablet View ------------- */
+
+@media(max-width: 1023px) {
+    .home-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+        margin: 20px 0;
+    }
+}
+
+@media(max-width: 1023px) {
+    .home-text p {
+        font-size: 40px;
+        font-weight: 600;
+    }
+}
+
+@media(max-width: 1023px) {
+    .home-card h2 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .home-item-flex span {
+        font-size: 16px;
+        padding-top: 2px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .home-image img {
+        height: 414px;
+        width: 100%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .home-image img {
+        height: 414px;
+        width: 100%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .home-card img {
+        height: 200px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 1023px) {
+    .home-add-1 {
+        display: none;
+    }
+}
+
+/* @media(max-width: 1023px) {
+    .home-card{
+       display: grid;
+       grid-template-rows: repeat(2,1fr);
+    }
+} */
+
+@media(max-width: 1023px) {
+    .home-add-2 {
+        display: block;
+    }
+}
+
+/* ------------   mobile View ------------- */
+
+@media(max-width: 580px) {
+    .home-text p {
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
+
+@media(max-width: 580px) {
+    .home-image img {
+        height: 242px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media(max-width: 580px) {
+    .home-item-text p {
+        line-height: 15px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 580px) {
+    .home-card-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+}
+
+@media(max-width: 580px) {
+    .home-card-rev-flex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
+@media(max-width: 580px) {
+    .home-card {
+        display: block;
+    }
+}
+
+@media(max-width: 580px) {
+    .home-card p {
+        padding-top: 10px;
+    }
+}
+
+@media(max-width: 580px) {
+    .home-card-rev-flex h2 {
+        margin: 0 0 20px;
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 580px) {
+    .home-card-title span {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 580px) {
+    .home-item-flex span {
+        font-size: 14px;
+        padding-top: 2px;
+    }
+}
